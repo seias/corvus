@@ -3,29 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Corvus Mail</title>
+<title>Corvus Mail — Email Client Application for Windows</title>
+<meta name="description" content="Corvus Mail is a desktop email client application for Windows. It lets users send, receive, and organize email from their Gmail, Outlook, and IMAP/POP3 accounts, with calendar, contact, and task synchronization.">
 <style>
   body { font-family: "Segoe UI", system-ui, sans-serif; margin: 0; background: #12141c; color: #e8eaf0; }
-  main { max-width: 640px; margin: 0 auto; padding: 64px 24px; }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 24px; }
   h1 { font-size: 2rem; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 36px; }
   .accent { color: #f5a623; }
-  p { line-height: 1.6; color: #b8bdc9; }
+  p, li { line-height: 1.65; color: #b8bdc9; }
   a { color: #f5a623; text-decoration: none; }
   a:hover { text-decoration: underline; }
+  .tagline { font-size: 1.1rem; color: #e8eaf0; }
   footer { margin-top: 48px; font-size: .85rem; color: #6b7280; }
 </style>
 </head>
 <body>
 <main>
   <h1>Corvus <span class="accent">Mail</span></h1>
+  <p class="tagline">A desktop email client application for Windows 10 and Windows 11.</p>
+
+  <h2>What Corvus Mail does</h2>
   <p>
-    Corvus is a native Windows mail client supporting Gmail, Outlook/Office365,
-    and any IMAP/POP3 provider. It signs in through official OAuth 2.0 flows —
-    your account credentials and mail data stay between you and your provider.
+    Corvus Mail is an email client application that runs on your Windows PC.
+    It connects to your existing email accounts and lets you send, receive, read,
+    and organize your email in one place. Corvus Mail supports:
   </p>
   <ul>
-    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><strong>Gmail</strong> — sign in with your Google account to read and send Gmail, manage labels, and sync Google Calendar, Contacts, and Tasks.</li>
+    <li><strong>Outlook and Microsoft 365</strong> — sign in with your Microsoft account for mail, calendar, contacts, and tasks.</li>
+    <li><strong>Any IMAP or POP3 provider</strong> — Yahoo, iCloud, Fastmail, or your own mail server, with CalDAV/CardDAV support for calendar and contacts.</li>
   </ul>
+
+  <h2>Why Corvus Mail exists</h2>
+  <p>
+    Corvus Mail is a native Windows application built for speed and privacy.
+    It requests access to your email through the official OAuth 2.0 sign-in flows
+    of Google and Microsoft. Your credentials and your mail data stay on your
+    device — the developer does not operate any servers that store your mail.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>
+    Read our full <a href="privacy.html">Privacy Policy</a>. In short: OAuth tokens
+    and email data are stored locally on your device only, and Corvus Mail contains
+    no analytics, advertising, or tracking. You can revoke access at any time from
+    your provider's account security page.
+  </p>
+
   <footer>
     Questions or access requests: use the support email shown on the app's sign-in (consent) screen.
   </footer>
